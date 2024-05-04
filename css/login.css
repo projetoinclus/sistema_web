@@ -1,0 +1,19 @@
+#bg-login {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, #ffcccc, #ffe95d);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#box-login {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  gap: 8px;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px #999999;
+}

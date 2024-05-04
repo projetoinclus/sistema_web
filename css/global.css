@@ -1,0 +1,35 @@
+* {
+  font-family: sans-serif; /* estilo da fonte */
+}
+
+html,
+body {
+  width: 100%; /* largura */
+  height: 100%; /* altura */
+  margin: 0; /* espaçamento externo */
+  padding: 0; /* espaçamento interno */
+}
+
+button {
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  background-image: linear-gradient(to bottom, #ff4747, #f3b72b);
+  color: #ffffff;
+}
+
+button:hover {
+  background-image: linear-gradient(to bottom, #942c2c, #c59526);
+}
+
+input {
+  padding: 8px;
+  border: none;
+  border-bottom: 2px solid #f3b72b;
+}
+
+input:focus {
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #942c2c;
+}
