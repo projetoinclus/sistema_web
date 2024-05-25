@@ -11,10 +11,13 @@
 }
 
 .link-menu {
-    border: 1px dashed red;
     text-decoration: none;
     display: flex;
     align-items: center;
     padding: 0 1.5rem;
     color: #333;
+}
+
+.link-menu:hover {
+    background-color: rgba(52, 102, 173, 0.2);
 }
