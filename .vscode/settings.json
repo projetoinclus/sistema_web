@@ -1,0 +1,40 @@
+{
+    "workbench.startupEditor": "none",
+    "git.autofetch": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "git.enableSmartCommit": true,
+    "workbench.tree.indent": 22,
+    "explorer.compactFolders": false,
+    "editor.linkedEditing": true,
+    "files.autoSave": "onWindowChange",
+    "editor.formatOnSave": true,
+    "notebook.formatOnSave.enabled": true,
+    "prettier.tabWidth": 4,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "workbench.iconTheme": "material-icon-theme",
+    "[markdown]": {
+        "editor.wordWrap": "on"
+    },
+    "workbench.colorTheme": "Darcula",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "git.confirmSync": false,
+    "explorer.confirmDragAndDrop": false,
+    "git.openRepositoryInParentFolders": "always",
+    "git.rememberPostCommitCommand": true,
+    "explorer.confirmDelete": false,
+    "workbench.tree.expandMode": "doubleClick",
+    "prettier.printWidth": 160,
+    "workbench.tree.renderIndentGuides": "always",
+    "editor.stickyScroll.enabled": false,
+    "breadcrumbs.enabled": false,
+    "workbench.list.openMode": "doubleClick",
+    "files.associations": {
+        "*.yaml": "yaml"
+    },
+    "[sql]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "Prettier-SQL.expressionWidth": 80,
+    "sql-formatter.uppercase": true,
+    "database-client.autoSync": true
+}

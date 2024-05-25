@@ -1,35 +1,42 @@
 * {
-  font-family: sans-serif; /* estilo da fonte */
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* estilo da fonte */
 }
 
 html,
 body {
-  width: 100%; /* largura */
-  height: 100%; /* altura */
-  margin: 0; /* espaçamento externo */
-  padding: 0; /* espaçamento interno */
-}
-
-button {
-  padding: 8px;
-  border-radius: 5px;
-  border: none;
-  background-image: linear-gradient(to bottom, #ff4747, #f3b72b);
-  color: #ffffff;
-}
-
-button:hover {
-  background-image: linear-gradient(to bottom, #942c2c, #c59526);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(150deg, rgba(0, 175, 239, 0.3), rgba(52, 102, 173, 0.3), rgb(88, 62, 149, 0.3));
 }
 
 input {
-  padding: 8px;
-  border: none;
-  border-bottom: 2px solid #f3b72b;
+    padding: 0.5rem;
+    border: none;
+    border-bottom: 2px solid rgb(0, 107, 230);
 }
 
 input:focus {
-  outline: none;
-  border: none;
-  border-bottom: 2px solid #942c2c;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(255, 72, 0);
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.btn-primary {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    background-image: linear-gradient(150deg, rgba(0, 175, 239), rgba(52, 102, 173), rgb(88, 62, 149));
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background-image: linear-gradient(150deg, rgb(0, 147, 201), rgb(40, 79, 133), rgb(70, 49, 119));
 }
