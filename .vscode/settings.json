@@ -1,4 +1,5 @@
 {
+    "locale": "pt-BR",
     "workbench.startupEditor": "none",
     "git.autofetch": true,
     "liveServer.settings.donotShowInfoMsg": true,
