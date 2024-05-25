@@ -35,6 +35,8 @@ input:focus {
     border: none;
     background-image: linear-gradient(150deg, rgba(0, 175, 239), rgba(52, 102, 173), rgb(88, 62, 149));
     color: #ffffff;
+    text-decoration: none;
+    text-align: center;
 }
 
 .btn-primary:hover {

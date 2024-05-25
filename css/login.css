@@ -15,3 +15,13 @@
     border-radius: 3px;
     box-shadow: 1px 1px 5px #999999;
 }
+
+#box-logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+#img-logo {
+    width: 150px;
+}
