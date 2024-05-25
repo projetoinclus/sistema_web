@@ -36,5 +36,8 @@
     },
     "Prettier-SQL.expressionWidth": 80,
     "sql-formatter.uppercase": true,
-    "database-client.autoSync": true
+    "database-client.autoSync": true,
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
