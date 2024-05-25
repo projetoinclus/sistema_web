@@ -31,7 +31,7 @@ input:focus {
 
 .btn-primary {
     padding: 8px;
-    border-radius: 5px;
+    border-radius: 100px;
     border: none;
     background-image: linear-gradient(150deg, rgba(0, 175, 239), rgba(52, 102, 173), rgb(88, 62, 149));
     color: #ffffff;
