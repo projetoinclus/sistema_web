@@ -7,4 +7,14 @@
     border-radius: 3px;
     background-color: #fff;
     box-shadow: 1px 1px 5px #999;
+    display: flex;
+}
+
+.link-menu {
+    border: 1px dashed red;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 0 1.5rem;
+    color: #333;
 }
