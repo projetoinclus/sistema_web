@@ -21,3 +21,7 @@
 .link-menu:hover {
     background-color: rgba(52, 102, 173, 0.2);
 }
+
+.link-ativo {
+    border-bottom: 3px solid orange;
+}
